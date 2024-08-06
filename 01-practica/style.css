@@ -1,0 +1,50 @@
+.contenedor{
+    margin-left: 350px;
+    margin-top: 150px;
+    position: absolute;
+    border: 5px solid black;padding: 200px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.search-box{
+    background-color: white;
+    width: 500px;
+    max-width: 500px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.562);
+}
+
+#cuadro {
+    position: relative;
+    border: none;
+    outline: 0;
+    font-size: 30px;
+}
+
+#fondocirculo {
+    background-position: center center;
+    background-size: cover;
+    padding: 20px 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 3px solid;
+    position: relative;
+    border: 5px solid black;padding: 70px;
+    flex-direction: row;
+    padding: 20px;
+}
+#btnMover {
+    position: relative;
+    background-color: rgb(153, 150, 150);
+    color: black;
+    border: none;
+    font-size: 30px;
+}

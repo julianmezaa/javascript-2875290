@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    text-align: center;
+}
+
+.h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.search-box{
+    background-color: rgb(189, 220, 244);
+    width: 400px;
+    max-width: 500px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    height: 30px;
+    position: relative;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.562);
+}
+#cuadro {
+    position: relative;
+    border: none;
+    outline: 0;
+    font-size: 15px;
+}
+.boxTarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+    gap: 15px;
+    background-color: rgb(161, 205, 237);
+}
+
+.boxTarea button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: rgb(128, 171, 206);
+    border: none;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85%;
+    min-height: 500px;
+    max-width: 1400px;
+    margin: 30px auto 0 auto;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.nota{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: rgb(197, 208, 247);
+    border: 2px solid black;
+}
+.equis{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(218, 147, 147);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius:  10px;
+    right: -10px;
+    left: 0px;
+    margin: auto;
+    top: -10px;
+    cursor: pointer;
+}
