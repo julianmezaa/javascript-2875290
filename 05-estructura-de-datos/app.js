@@ -1,18 +1,17 @@
-const container = document.querySelector( '.container')
-
+const container = document.querySelector('.container')
 canciones.forEach(element => {
-    let card = document.createElement('div');
+let card = document.createElement('div')
 
-card .innerHTML = ` 
-<seletion class="tarjeta">
-<div class="container">
-<img src="${element.imagen}"
-<div class="name"> ${element.nombre}<div>
-<div class="artista"> ${element.artista}<div>
-<div class="año"> año: ${element.año}<div>
-<div class="genero"> genero: ${element.genero}<div>
-</div>
-</seletion>
+card.innerHTML =
+`   <div class="card">
+        <img src='${element.imagen}' alt="Imagen de la tarjeta" class="card-imagen">
+        <div class="card-contenido">
+            <h2 class="card-titulo">${element.nombre}</h2>
+            <p class="card-descripcion">${element.artista}</p>
+            <p class="card-descripcion">${element.genero}</p>
+            <p class="card-descripcion">${element.año}</p>
+        </div>
+    </div>
 `
 container.appendChild(card);
-});
+})

@@ -42,7 +42,7 @@ margin: 30px 0;
     background-color: transparent;
     border: none;
     outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
+    border: 2px solid rgba(0, 38, 255, 0.2);
     border-radius: 40px;
     font-size: 18px;
     padding: 20px 45px 20px 20px;
@@ -85,7 +85,7 @@ margin: 30px 0;
 }
 
 .register-link a {
-    color: #0558ff;
+    color: #326fe9;;
     text-decoration: none;
     font-weight: 600;
 }
