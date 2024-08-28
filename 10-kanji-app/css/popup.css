@@ -4,16 +4,18 @@ body{
     text-align: center;
 }
 
+
 .wrapper{
-    width: 400px;
-    bottom: 150px;
-    margin: 50px auto  50px auto;
-    background:#e8e8e8;
+    width: 500px;
+    height: 400px;
+    bottom: 100px;
+    margin: 50px auto  20px auto;
+    background:#d3c5c7;
     border: 2px solid rgba(169, 171, 178, 0.2);
     backdrop-filter: blur(30px);
     color: #000000;
-    border-radius: 20px;
-    padding: 40px 40px 60px;
+    border-radius: 40px;
+    padding: 20px 40px;
 }
 
 .wrapper h1{
@@ -24,27 +26,25 @@ body{
 .wrapper .input-box{
 position: relative;
 width: 100%;
-height: 100%;
+height: 50px;
 margin: 30px 0;
 }
 
-.input-box input{
+.cuadro{
     width: 200px;
-    height: 30px;
+    height: 65px;
     background-color: white;
     border: none;
-    outline: none;
-    border: 2px solid rgba(174, 175, 176, 0.2);
-    border-radius: 10px;
-    font-size: 18px;
-    padding: 8px 10px 8px 8px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto 50px auto;
 }
-
 
 .btn{
     width: 200px;
     height: 50px;
-    background-color: #b44047;
+    background-color: #ea9281;
     border: none;
     outline: none;
     border-radius: 15px;
@@ -53,4 +53,5 @@ margin: 30px 0;
     font-size: 16px;
     color: #ffffff;
     font-weight: 600;
+    margin: 30px;
 }

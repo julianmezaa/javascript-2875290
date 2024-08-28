@@ -4,29 +4,33 @@ body{
     text-align: center;
 }
 .image-titulo{
-    width: 300px;
-    height: 100px;
-    margin: 50px auto  20px;
+    width: 250px;
+    margin: 50px auto  10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+    min-width: 700px;
+    max-width: 1200px;
 }
 
 .image-post{
-    position: absolute;
-    bottom: 330px;
-    left: 250px;
-    width: 250px;
+width: 230px;
+
 }
 
 .image-post2{
-    position: absolute;
-    bottom: 330px;
-    right: 250px;
-    width: 250px;
+width: 230px;
+
 }
 
 .wrapper{
-    width: 600px;
-    bottom: 100px;
-    margin: 50px auto  20px auto;
+    width: 500px;
+    margin: 24px auto  0px auto;
     background:#d3c5c7;
     border: 2px solid rgba(169, 171, 178, 0.2);
     backdrop-filter: blur(30px);
@@ -63,12 +67,6 @@ margin: 30px 0;
     color: #000000;
 }
 
-.input-box i{
-    position: absolute;
-    right: 20px;
-     top: 30%;
-    font-size: 10px;
-}
 
 .btn{
     width: 250px;
@@ -86,8 +84,10 @@ margin: 30px 0;
 
 .foote{
     background-color: #535353;
-    padding: 20px;
+    padding: 10px;
+    padding: 10px;
     margin-top: 60px;
+
 }
 
 .foot{
@@ -106,13 +106,19 @@ margin: 30px 0;
 }
 
 .img-logo{
-    width: 75px;
+    width: 50px;
 }
 
 .foote{
     background-color: #535353;
-    padding: 25px;
+    padding: 20px;
+}
 
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .dis{

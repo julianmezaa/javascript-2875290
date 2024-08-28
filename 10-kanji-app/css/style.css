@@ -2,37 +2,44 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin:0;
     text-align: center;
+
 }
 .image-titulo{
-    width: 300px;
-    height: 100px;
+    width: 250px;
     margin: 50px auto  20px;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+    min-width: 700px;
+    max-width: 1200px;
+}
+
 .image-post{
-    position: absolute;
-    bottom: 330px;
-    left: 250px;
-    width: 250px;
+width: 230px;
+
 }
 
 .image-post2{
-    position: absolute;
-    bottom: 330px;
-    right: 250px;
-    width: 250px;
+width: 230px;
+
 }
 
 .wrapper{
-    width: 600px;
-    bottom: 100px;
-    margin: 50px auto  20px auto;
+    width: 500px;
+    min-height: 450px;
+    margin: 30px auto  0px auto;
     background:#d3c5c7;
     border: 2px solid rgba(169, 171, 178, 0.2);
     backdrop-filter: blur(30px);
     color: #000000;
     border-radius: 40px;
-    padding: 20px 40px;
+    padding: 20px 40px 60px;
+
 }
 
 .wrapper h1{
@@ -101,8 +108,10 @@ margin: 30px 0;
 
 .foote{
     background-color: #535353;
-    padding: 20px;
-    margin-top: 150px;
+    padding: 10px;
+    padding: 10px;
+    margin: 62px auto auto auto;
+
 }
 
 .foot{
@@ -112,6 +121,8 @@ margin: 30px 0;
     align-items: center;
     max-width: 1800px;
     margin: auto;
+
+
 }
 
 .foot a{
@@ -121,13 +132,19 @@ margin: 30px 0;
 }
 
 .img-logo{
-    width: 75px;
+    width: 50px;
 }
 
 .foote{
     background-color: #535353;
-    padding: 25px;
+    padding: 20px;
+}
 
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .dis{
