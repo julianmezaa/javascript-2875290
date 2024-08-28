@@ -4,16 +4,23 @@ body{
     text-align: center;
 }
 
+.cuadro{
+    width: 482px;
+    height: 50px;
+    background-color: #ea9281;
+    border-radius: 20px 20px 0px 0px;
+    margin: 20px;
+}
+
 .wrapper{
     width: 400px;
-    bottom: 150px;
     margin: 50px auto  50px auto;
     background:#e8e8e8;
     border: 2px solid rgba(169, 171, 178, 0.2);
     backdrop-filter: blur(30px);
     color: #000000;
     border-radius: 20px;
-    padding: 40px 40px 60px;
+    padding: 40px 50px 60px;
 }
 
 .wrapper h1{
@@ -31,6 +38,8 @@ margin: 30px 0;
 .input-box input{
     width: 200px;
     height: 30px;
+    align-items: center;
+    display: flex;
     background-color: white;
     border: none;
     outline: none;
@@ -39,7 +48,6 @@ margin: 30px 0;
     font-size: 18px;
     padding: 8px 10px 8px 8px;
 }
-
 
 .btn{
     width: 200px;
