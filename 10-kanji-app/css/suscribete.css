@@ -3,10 +3,35 @@ body{
     margin:0;
     text-align: center;
 }
+
+.image-titulo{
+    width: 200px;
+    margin: 70px auto  20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+    min-width: 700px;
+    max-width: 1200px;
+}
+
+.image-post{
+width: 230px;
+
+}
+
+.image-post2{
+width: 230px;
+
+}
+
 .wrapper{
     width: 500px;
     height: 400px;
-    bottom: 100px;
     margin: 70px auto  40px auto;
     background:#d3c5c7;
     border: 2px solid rgba(169, 171, 178, 0.2);
